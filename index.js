@@ -14,8 +14,8 @@ let pairingCode = null
 let isConnected = false
 let botProcess = null
 let botStats = null 
-const mongodbUri = process.env.MONGODB_URI || 'mongodb://localhost:27017'
-const phoneNumber = process.env.BOT_NUMBER || ''
+const mongodbUri = process.env.MONGODB_URI || 'mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority'
+const phoneNumber = process.env.BOT_NUMBER || '27689344972'
 
 figlet(
   'MEGA AI',
